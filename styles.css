@@ -1,0 +1,208 @@
+/*utility*/
+
+
+
+body{margin: 0;
+  font-family: Verdana, sans-serif;
+  color: rgb(100, 100, 100);
+}
+
+.floatleft{float: left;}
+.floatright{float: right;}
+
+/*structure*/
+
+header{
+  width: 100%;
+  height: 3.75rem;
+  background: rgb(100, 100, 100);
+  padding: 0.313rem 0;
+  margin-bottom: 0.313rem;
+}
+
+#logo{
+  width: 12.5rem;
+  height: 3.75rem;
+  background: rgb(200, 200, 200);
+  float: left;
+}
+
+nav{float:left; margin-left: 21.75rem;}
+nav li{
+  display:inline;
+  margin-right:1.25rem;
+  font-weight:bold;
+  font-size:18px;
+}
+nav li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+nav li a:hover{
+    color: rgb(150, 150, 150);
+}
+
+.button{
+width: 8.438rem;
+height: 1.875rem;
+background:linear-gradient(#c8c8c8, #969696);
+text-align: center;
+padding: 0.938rem 0.313rem 0.313rem;
+margin: 0.313rem 0.313rem 0 0;
+border: 1px solid rgb(150, 150, 150);
+border-radius:0.313rem;
+cursor: pointer;
+   background: -webkit-gradient(linear, 0%,
+       0%, 0%, 100%, from(#c8c8c8), to(#969696));
+}
+
+.button a{
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+}
+
+.button:hover{
+    background: linear-gradient(#969696, #c8c8c8);
+}
+
+.hero{
+  width: 100%;
+  height: 25rem;
+  background: url("bgplaceholder.jpg");
+  background-size: 100% 100%;
+  padding: 0.313rem 0;
+  margin-bottom:0.313rem;
+  
+}
+
+.heroimage{
+    width:30rem;
+    height: 23.75rem;
+    background: rgb(150, 150, 150);
+    float: left;
+    margin: 0.625rem 0 0 1.25rem;
+}
+
+.herocontent{
+    width: 25rem;
+    float: left;
+    margin-left:1.25rem;
+    padding-top:2.5rem;
+   
+}
+
+.hero h1{
+font-size: 40px;
+ margin-bottom: -10px;
+}
+
+.hero p{
+    margin-bottom: 3.75rem;
+}
+
+.hero.button{
+    width: 14.063rem;
+    height: 2.5rem;
+    padding: 1.563rem;
+    font-size:20px;
+}
+
+.features{
+  width: 58.75rem;
+  height: 21.875rem;
+  background: rgb(220, 220, 220);
+  margin: 0 auto 0.313rem;
+  padding: 0.313rem 0;
+}
+
+.features h2{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: -1.25rem;
+}
+
+.features h4{
+    font-weight: normal;
+    text-align: center;
+    margin-bottom:3.75rem;
+}
+
+.features aside{
+    width: 17.875rem;
+    height: 12.5rem;
+    float: left;
+    text-align:center;
+    margin-left: 1.25rem;
+    /*background: rgb(225, 225, 225);*/
+}
+
+.featuresimage{
+    width: 100%;
+    height: 9.375rem;
+    background: rgb(200, 200, 200);
+}
+
+.organize{
+  width: 100%;
+  height: 260px;
+  background: rgb(220, 220, 220);
+  padding: 0.313rem 0;
+  margin-bottom:0.313rem;
+}
+
+.organizeimage, .shareimage{
+    width: 27.5rem;
+    height: 14.063rem;
+    float: left;
+    margin-left: 1.25rem;
+    margin-top: 1.25rem;
+    background: rgb(200, 200, 200);
+}
+
+.organizecontent, .sharecontent{
+    float:left;
+    margin-left: 1.25rem;
+    width: 27.5rem;
+}
+
+.share{
+  width: 58.75rem;
+  height:16.25rem;
+  background: rgb(220, 220, 220);
+  margin: 0 auto 0.313rem;
+  padding: 0.313rem 0;
+}
+
+.get{
+  width: 100%;
+  height: 100px;
+  background: rgb(100,100,100);
+  padding: 0.313rem 0;
+  margin-bottom:0.313rem;
+}
+
+.get h2{
+    font-size: 30px;
+    float: left;
+    color: rgb(255, 255, 255);
+    margin-left:3.75rem;
+    margin-top: 1.875rem;
+}
+
+.get .button{
+    margin-right: 3.75rem;
+    margin-top: 1.563rem;
+}
+footer{
+  width: 100%;
+  height: 3.75rem;
+  background: rgb(200, 200, 200);
+  padding: 0.313rem 0;
+  text-align: center;
+}
+
+.container{
+  width: 58.75rem;
+  height: 100%;
+  margin: 0 auto;
+}
